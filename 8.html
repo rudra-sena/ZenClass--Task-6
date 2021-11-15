@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tooltip</title>
+    <style>
+        body{
+            text-align: center;
+        }
+       .tooltip{       
+        background-color: black;
+        color: white;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px;
+        visibility: hidden;
+            
+}
+.visible:hover .tooltip{
+    visibility: visible;
+}
+
+        
+    </style>
+
+</head>
+<body>
+    <h2>Basic Tooltip Demo</h2>
+    <div class="visible">Hover over me: <span class="tooltip" >This is how it works!</span></div>
+
+
+    
+</body>
+</html>
